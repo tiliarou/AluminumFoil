@@ -1,12 +1,26 @@
 # Binaries for programs and plugins
 *.exe
 *.exe~
-*.dll
+bin/*.dll
+obj/*.dll
 *.so
 *.dylib
+.vs/
+packages/
+
+AluminumFoil/bin/
+AluminumFoil/obj/
+
+AluminumFoil.Mac/bin/
+AluminumFoil.Mac/obj/
+
+AluminumFoil.Windows/bin/
+AluminumFoil.Windows/obj/
 
 # Test binary, build with `go test -c`
 *.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+AluminumFoil/AluminumFoil\.csproj\.user
